@@ -1,0 +1,61 @@
+# ===============================================
+# .gitignore for Random Motion-Based Encryption
+# ===============================================
+
+# 🐍 Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# 🧪 Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# 🧠 Project data (large or sensitive)
+data/*.mp4
+data/*.png
+data/*.jpg
+data/*.jpeg
+data/*.csv
+data/*.bin
+
+# 🔒 Results and generated outputs
+results/
+results/*.csv
+results/*.png
+results/*.bin
+results/*.mp4
+results/*.npy
+results/*.jpg
+results/*.jpeg
+
+# 🧰 IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🧱 OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🧩 Archive or backup files
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.bak
+*.old
+
+# ===============================================
+# Note:
+# Code inside src/, docs, and README.md 
+# WILL be tracked — that’s intentional.
+# ===============================================
